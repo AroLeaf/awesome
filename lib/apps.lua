@@ -1,10 +1,9 @@
 local gears = require('gears')
 local menubar = require('menubar')
 local beautiful = require('beautiful')
-local fs = require('lib/fs')
+local fs = require('elegant.fs')
 
 local DEFAULT_DIRS = { '/usr/share/applications/' }
-local json = require('lib/lunajson')
 
 local function parse_desktop_file(path)
   local program = {}
