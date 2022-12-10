@@ -1,0 +1,9 @@
+<svg version="1.1" width="128" height="96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path stroke="white" stroke-width="4" stroke-linecap="round" fill="transparent" d="
+    M 48,18 H80
+    M 16,38 H96
+    M 32,58 H112
+    M 48,78 H80
+  "/>
+</svg>
+

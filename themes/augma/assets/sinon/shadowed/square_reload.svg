@@ -1,0 +1,30 @@
+<svg version="1.1" width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <filter id="shadow">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+  </filter>
+  
+  <g fill="orange" filter="url(#shadow)">
+    <path id="icon" d="
+      M 8 4
+      L 24 4
+      A 4 4 0 0 1 28 8
+      L 28 24
+      A 4 4 0 0 1 24 28
+      L 8 28
+      A 4 4 0 0 1 4 24
+      L 4 8
+      A 4 4 0 0 1 8 4
+      
+      M 22.36396103067893 9.636038969321072
+      A 9 9 45 1 0 22.36396103067893 22.36396103067893
+      A 1 1 45 0 0 20.949747468305834 20.949747468305834
+      A 7 7 -45 1 1 20.949747468305834 11.050252531694168
+      L 18.82842712474619 13.171572875253812
+      
+      24.485281374238568 7.5147186257614305
+    "/>
+  </g>
+  
+  <use href="#icon" fill="white"/>
+</svg>
+

@@ -1,0 +1,17 @@
+<svg version="1.1" width="128" height="96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path stroke="white" stroke-width="4" stroke-linecap="round" fill="transparent" d="
+    M 64,32
+    A 16,16 0 0 1 64,64
+    A 16,16 0 0 1 64 32
+    
+    M 64,24 V 16
+    M 83,31 L 88.7,25.3
+    M 88,48 H 96
+    M 83 65 L 88.7,70.7
+    M 64,72 V 80
+    M 47,65 L 41.3,70.7
+    M 40,48 H 32
+    M 47,31 L 41.3,25.3
+  "/>
+</svg>
+

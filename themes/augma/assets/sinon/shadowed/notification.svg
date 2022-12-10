@@ -1,0 +1,33 @@
+<svg version="1.1" width="288" height="64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <filter id="shadow">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+  </filter>
+  
+  <mask id="mask">
+    <rect x="0" y="0" width="288" height="64" fill="white"/>
+    <g fill="black">
+      <path id="path" d="
+        M 28,4
+        L 276,4
+        A 8,8 0 0 1 284,12
+        L 284,52
+        A 8,8 0 0 1 276,60
+        L 28,60
+        A 8,8 0 0 1 20,52
+        L 20,48
+        L 8,48
+        A 4,4 0 0 1 4,44
+        L 4,20
+        A 4,4 0 0 1 8,16
+        L 20,16
+        L 20,12
+        A 8,8 0 0 1 28,4
+      "/>
+    </g>
+  </mask>
+    
+    
+  <use href="#path" fill="orange" filter="url(#shadow)" mask="url(#mask)"/>
+  <use href="#path" fill="#ffffffef"/>
+</svg>
+
